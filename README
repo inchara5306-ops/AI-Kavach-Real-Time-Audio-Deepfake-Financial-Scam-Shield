@@ -1,0 +1,121 @@
+# 🛡️ AI Kavach – Real-Time Audio Deepfake & Financial Scam Shield
+
+## Overview
+
+AI Kavach is an AI-powered application designed to detect AI-generated voice deepfakes and identify potential financial scam conversations. The system combines speech processing, deep learning, and a web-based interface to provide real-time analysis of uploaded audio.
+
+---
+
+## Problem Statement
+
+AI-generated voice cloning and financial scams are becoming increasingly common. AI Kavach helps identify suspicious audio by analyzing speech patterns and detecting signs of synthetic or fraudulent content.
+
+---
+
+## Features
+
+- Audio Deepfake Detection
+- Financial Scam Analysis
+- Multilingual Audio Support
+- Real-Time Audio Processing
+- Interactive HTML Dashboard
+- FastAPI Backend
+- Modular AI Pipeline
+
+---
+
+## Project Structure
+
+```
+AI_Kavach/
+│
+├── data/
+│   └── data_prep.py
+│
+├── training/
+│   └── train_lora.py
+│
+├── demo/
+│   ├── api.py
+│   ├── infer.py
+│   ├── app.html
+│   └── live_call_app.html
+│
+├── README.md
+└── setup_and_run.bat
+```
+
+---
+
+## Technologies Used
+
+- Python
+- PyTorch
+- FastAPI
+- Hugging Face Transformers
+- LoRA
+- PEFT
+- HTML
+- JavaScript
+- NVIDIA H200 GPU
+
+---
+
+## AI Workflow
+
+Audio Input
+
+↓
+
+Audio Preprocessing
+
+↓
+
+Feature Extraction
+
+↓
+
+Deep Learning Model
+
+↓
+
+Deepfake & Scam Detection
+
+↓
+
+Prediction
+
+↓
+
+Results Displayed on Web Dashboard
+
+---
+
+## Skills Demonstrated
+
+- Deep Learning
+- Speech Processing
+- FastAPI Development
+- AI Model Deployment
+- Parameter-Efficient Fine-Tuning (LoRA)
+- Hugging Face Ecosystem
+
+---
+
+## Future Enhancements
+
+- Real-time call monitoring
+- Support for more Indian languages
+- Mobile application
+- Explainable AI dashboard
+- Cloud deployment
+
+---
+
+## Author
+
+**Inchara M**
+
+B.Tech – CSE (AI & ML)
+
+Presidency University, Bengaluru
